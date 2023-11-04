@@ -111,6 +111,7 @@
           <div class="col-md-8 col-10 text-center">
             <h2>Informasi Acara</h2>
             <p class="alamat">Alamat: Graha Zeni TNI AD. <br>3, Jl. Kesatrian II No.5, RT.5/RW.3, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4171980604674!2d106.8578567!3d-6.208574700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f464cc25cd8d%3A0x60207ac088c2f174!2sGRAHA%20ZENI!5e0!3m2!1sid!2sid!4v1699090289884!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               <a href="https://maps.app.goo.gl/zZmtf4wnife7o3Wm7" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
               <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi anda salah jadwal, atau salah tempat.</p>
           </div>
@@ -380,6 +381,11 @@
 
       <script>
         const rootElement = document.querySelector(":root");
+        const audioiconWrapper = document.querySelector('.audio-icon-wrapper')
+        const song = document.querySelector('#song');
+        const audioIcon = document.querySelector('.audio-icon-wrapper i');
+        let isPlaying = false; 
+
         function disableScroll(){
           scrollTop = window.pageYOffset || document. documentElement.scrollTop;
           scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
@@ -400,9 +406,26 @@
         }
 
         function playAudio(){
-          const song = document.querySelector('#song');
+          
+          song.volume = 0.1;
+          audioiconWrapper.style.display='flex'
           song.play();
+          isPlaying = true;
         }
+
+        audioiconWrapper.onclick = function(){
+          if(isPlaying){
+          song.pause();
+          audioIcon.classList.remove('bi-disc');
+          audioIcon.classList.add('bi-pause-circle');
+        } else {
+          song.play();
+          audioIcon.classList.add('bi-disc');
+          audioIcon.classList.remove('bi-pause-circle');
+        }
+
+        isPlaying = !isPlaying;
+      }
 
         // if (!localStorage.getItem('opened')){
          // disableScroll();
