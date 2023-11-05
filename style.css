@@ -151,13 +151,17 @@ body {
 }
 
 .info {
-    background-color: var(--bg);
-    color: white;
+    background-color: white;
+    color: rgba(255, 255, 255, 0.387);
     padding-top: 10rem;
     padding-bottom: 8rem;
 }
 
-
+.info p {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(4px);
+    color: #0a0a0a;
+}
 
 .info .alamat {
     font-size: 1.1rem;
@@ -170,7 +174,7 @@ body {
 
 .info .card {
     background-color: rgba(255, 255, 255, 0.2) !important;
-    color: white !important;
+    color: var(--bg) !important;
     border: 1px solid #999;
 }
 
@@ -317,7 +321,7 @@ body {
 }
 
 .rsvp {
-    background-color: var(--bg);
+    background-color: rgba(255, 255, 255, 0.784);
 }
 
 .rsvp h2 {
@@ -325,23 +329,23 @@ body {
 }
 
 .rsvp p {
-    color: white;
+    color: var(--bg);
 }
 
 .rsvp form label {
-    color: white;
+    color: var(--bg);
 }
 
 .rsvp button {
     background-color: var(--pink);
-    color: white;
+    color: var(--bg);
     border: 1px  solid var(--pink);
 }
 
 .rsvp button:hover {
-    background-color: white;
+    background-color: var(--bg);
     color: var(--pink);
-    border: 1px  solid white;
+    border: 1px  solid var(--bg);
 }
 
 .audio-icon-wrapper {
