@@ -387,7 +387,7 @@
         let isPlaying = false; 
 
         function disableScroll(){
-          scrollTop = window.pageYOffset || document. documentElement.scrollTop;
+          scrollTop = window.pageYOffset || document.documentElement.scrollTop;
           scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
 
           window.onscroll = function () {
@@ -401,7 +401,7 @@
         function enableScroll() {
           window.onscroll = function () { }
           rootElement.style.scrollBehavior = 'smooth';
-          // localStorage.setItem('opened', 'true');
+          localStorage.setItem('opened', 'true');
           playAudio();
         }
 
