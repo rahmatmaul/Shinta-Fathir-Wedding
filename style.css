@@ -1,5 +1,5 @@
 :root {
-    --pink: #f14ef1;
+    --pink: #e75480;
     --bg: #0a0a0a;
     --shadow: 0 2px 2px rgba(0 0 0/ 0.5);
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .hero h1 {
-    font-family: 'Tangerine', cursive;
+    font-family: 'Tangerine', cursive;    
     font-size: 6rem;
 }
 
@@ -107,7 +107,7 @@ body {
 .gallery h2,
 .rsvp h2 {
     color: var(--pink);
-    font-family: 'Tangerine';
+    font-family: 'Tangerine', cursive;
     font-size: 5rem;
     font-weight: bold;
 }
@@ -128,7 +128,7 @@ body {
 }
 
 .home .couple h3 {
-    font-family: 'Tangerine';
+    font-family: 'Tangerine', cursive;
     font-size: 2.4rem;
     color: var(--pink);
 }
@@ -156,7 +156,8 @@ body {
 }
 
 .info {
-    background-color: white;
+    background-image: url(img/bgbg1.jpg);
+    background-size: cover;
     color: rgba(255, 255, 255, 0.387);
     padding-top: 10rem;
     padding-bottom: 8rem;
@@ -207,6 +208,11 @@ body {
 
 }
 
+.story {
+    background-image: url(img/bgbg.jpg);
+    background-size: cover;
+}
+
 .story span,
 .gallery span {
     text-transform: uppercase;
@@ -215,6 +221,10 @@ body {
     letter-spacing: 1px;
     display: block;
     margin-bottom: 1rem;
+}
+.gallery {
+    background-image: url(img/bgbg1.jpg);
+    background-size: cover;
 }
 
 .story p
@@ -326,7 +336,8 @@ body {
 }
 
 .rsvp {
-    background-color: rgba(255, 255, 255, 0.784);
+    background-image: url(img/bgbg.jpg);
+    background-size: cover;
 }
 
 .rsvp h2 {
