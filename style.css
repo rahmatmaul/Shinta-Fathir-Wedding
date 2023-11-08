@@ -247,7 +247,7 @@ body {
     bottom: 0;
     position: absolute;
     width: 1px;
-    background-color: #ccc;
+    background-color: #000000;
     left: 50%;
 }
 
@@ -269,7 +269,7 @@ body {
 .timeline li .timeline-image {
     width: 160px;
     height: 160px;
-    background-color: #ccc;
+    background-color: #000000;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -282,7 +282,7 @@ body {
 .timeline li .timeline-panel {
     width: 40%;
     float: left;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     padding: 2rem;
     position: relative;
     border-radius: 8px;
@@ -293,8 +293,8 @@ body {
     display: inline-block;
     position: absolute;
     border-top: 15px solid transparent;
-    border-left: 15px solid #ccc;
-    border-right: 0 solid #ccc;
+    border-left: 15px solid #000000;
+    border-right: 0 solid #000000;
     border-bottom: 15px solid transparent;
     top: 80px;
     right: -15px;
@@ -305,8 +305,8 @@ body {
     position: absolute;
     display: inline-block;
     border-top: 14px solid transparent;
-    border-left: 14px solid #fff;
-    border-right: 0 solid #fff;
+    border-left: 14px solid #000000;
+    border-right: 0 solid #000000;
     border-bottom: 14px solid transparent;
     top: 81px;
     right: -13px;
@@ -332,7 +332,7 @@ body {
 }
 
 .gallery {
-    background-color: #f5f5f5;
+    background-color: #000000;
 }
 
 .rsvp {
