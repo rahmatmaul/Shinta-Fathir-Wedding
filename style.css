@@ -97,7 +97,8 @@ body {
 }
 
 .btn {
-    transform: translateY(-13px);
+    transform: translateY(-1px);
+    align-items: end;
 }
 
 
