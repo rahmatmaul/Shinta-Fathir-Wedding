@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(img/background11.png);
+    background-image: url(img/111\ \(1\).jpg);
     z-index: -1;
     background-size: cover;
     background-position: center;
@@ -31,10 +31,6 @@ body {
     min-height: 100vh;
 }
 
-.simply-countdown{
-    padding-top: 43rem;
-    padding-bottom: 2rem;
-}
 
 .hero h1, .hero h4, .hero p {
     text-shadow: var(--shadow);
@@ -49,12 +45,10 @@ body {
 
 .hero h4 {
     font-size: 1.6rem;
-    padding-top: 1rem;
 }
 
 .hero p {
     font-size: 1.4rem;
-    padding-top: 23rem;
 }
 
 .hero a {
@@ -70,6 +64,8 @@ body {
     color: rgb(255, 255, 255);
 
 }
+
+
 
 
 
@@ -529,4 +525,3 @@ footer li {
             top: 31px;
         }
 }
-
