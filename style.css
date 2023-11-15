@@ -91,6 +91,14 @@ body {
     height: 100vh;
 }
 
+.hero{
+    
+    align-items: end;
+}
+
+.btn {
+    transform: translateY(-13px);
+}
 
 
 
@@ -507,6 +515,8 @@ footer li {
         margin: 3px;
         
         }
+
+        
         
 
         .timeline li .timeline-image {
