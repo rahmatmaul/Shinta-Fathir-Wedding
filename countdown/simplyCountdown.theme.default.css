@@ -2,12 +2,13 @@
     overflow: hidden;
     display: table;
     font-family: 'Arial', sans-serif;
+
 }
 
 .simply-countdown>.simply-section {
-    width: 40px;
-    height: 40px;
-    padding: 65px;
+    width: 5px;
+    height: 5px;
+    padding: 80px;
     display: flex;
     align-items: center;
     justify-content: center;

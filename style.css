@@ -32,6 +32,7 @@ body {
 }
 
 
+
 .hero h1, .hero h4, .hero p {
     text-shadow: var(--shadow);
     color: var(--pink);
@@ -473,7 +474,7 @@ footer li {
         font-size: 65%;
     }
     .simply-countdown>.simply-section {
-        padding: 60px;
+        padding: 55px;
         margin: 5px;
     
         }
@@ -502,7 +503,7 @@ footer li {
         font-size: 60%;
     }
     .simply-countdown>.simply-section {
-        padding: 40px;
+        padding: 28px;
         margin: 3px;
         
         }
