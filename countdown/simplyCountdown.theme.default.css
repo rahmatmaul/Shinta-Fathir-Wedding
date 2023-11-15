@@ -2,7 +2,7 @@
     overflow: hidden;
     display: table;
     font-family: 'Arial', sans-serif;
-
+    transform: translateY(-20px);
 }
 
 .simply-countdown>.simply-section {

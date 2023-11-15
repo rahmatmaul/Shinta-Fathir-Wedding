@@ -97,7 +97,7 @@ body {
 }
 
 .btn {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
 }
 
 
@@ -511,7 +511,7 @@ footer li {
         font-size: 60%;
     }
     .simply-countdown>.simply-section {
-        padding: 30px;
+        padding: 35px;
         margin: 3px;
         
         }
