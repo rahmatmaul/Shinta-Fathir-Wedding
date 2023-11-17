@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(img/bg123.jpg);
+    background-image: url(img/mntap.jpg);
     z-index: -1;
     background-size: cover;
     background-position: center;
@@ -511,7 +511,7 @@ footer li {
         font-size: 60%;
     }
     .simply-countdown>.simply-section {
-        padding: 35px;
+        padding: 40px;
         margin: 3px;
         
         }
